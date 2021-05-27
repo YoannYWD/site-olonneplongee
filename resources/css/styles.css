@@ -54,7 +54,7 @@ h3 {
 }
 h3:after {
     display: block;
-    height: 2px;
+    height: 1px;
     background: linear-gradient(to right, #FFFFFF, #FCFFAD, #FFFFFF);
     width: 200px;
     content:" ";
@@ -64,6 +64,8 @@ h3:after {
 
 h4 {
     font-family: 'Comfortaa', 'arial', sans-serif;
+    text-align: center;
+    margin: 0!important;
 }
 
 p {
@@ -116,21 +118,62 @@ nav a:hover {
     background-color: #39A9DB;
 }
 
+.rowintro {
+    padding: 30px 0;
+}
+
 .introtext h3:after {
     background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
 }
 
 .top3 {
     background-color: #1A97C3;
-    color: #FFFFFF
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
 }
 
 .top3 h3:after {
     background: linear-gradient(to right, #1A97C3, #FCFFAD, #1A97C3);
 }
 
+.top3 img {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.top3 p {
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
+
+/* EVENEMENT
+==================================================*/
+
+.event {
+    background-image: linear-gradient(
+        rgba(7, 117, 230, 0.4),
+        rgba(7, 117, 230, 0.4)
+      ), url(/site-olonneplongee/resources/images/sables.jpg);
+    background-attachment: fixed;
+}
+
+.event h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.event p {
+    color: #FFFFFF;
+    text-align: center;
+}
 
 
 
