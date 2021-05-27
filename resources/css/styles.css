@@ -169,6 +169,10 @@ nav a:hover {
     background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
 }
 
+.rowintro {
+    padding: 0 10px;
+}
+
 .top3 {
     background-color: #1A97C3;
     color: #FFFFFF;
