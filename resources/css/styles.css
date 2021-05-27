@@ -27,9 +27,13 @@
     5. =EVENEMENT
     6. =CLUB
     7. =EMPLOYEES
-    8. =
-    9. =
-    10.=FOOTER
+    8. =OUTING
+    9. =TRIP
+    10.=FIRSTDIVE
+
+
+
+    .=FOOTER
 
 */
 
@@ -317,12 +321,87 @@ iframe {
 }
 
 
+/* OUTING
+==================================================*/
+
+#outing {
+    background-color: #39A9DB;
+}
+
+.outing-title h3:after {
+    background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
+}
+
+.outing-title p {
+    text-align: center;
+}
+
+.outing-list img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
 
 
 
 
+/* TRIP
+==================================================*/
+
+#trip {
+    background-color: #FFFFFF;
+}
+
+.trip-title h3:after {
+    background: linear-gradient(to right, #FFFFFF, #39A9DB, #FFFFFF);
+}
+
+.trip-title p {
+    text-align: center;
+}
+
+.trip-list img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
 
 
+
+
+/* FIRST DIVE
+==================================================*/
+
+#firstdive {
+    background-color: #FCFFAD;
+}
+
+.firstdive-title h3:after {
+    background: linear-gradient(to right, #FCFFAD, #39A9DB, #FCFFAD);
+}
+
+.firstdive-details img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+/* FIRST DIVE
+==================================================*/
+
+#grade {
+    background-color: #FFFFFF;
+}
+
+.grade-title h3:after {
+    background: linear-gradient(to right, #FFFFFF, #39A9DB, #FFFFFF);
+}
+
+.grade-details img {
+    width: 200px;
+}
 
 
 
