@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .dropdown-menu {
-    background-color: #1A97C3!important;
+    background-color: #39A9DB!important;
 }
 
 .dropdown-menu a:hover {
@@ -115,6 +115,20 @@ nav a:hover {
 .intro {
     background-color: #39A9DB;
 }
+
+.introtext h3:after {
+    background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
+}
+
+.top3 {
+    background-color: #1A97C3;
+    color: #FFFFFF
+}
+
+.top3 h3:after {
+    background: linear-gradient(to right, #1A97C3, #FCFFAD, #1A97C3);
+}
+
 
 
 
