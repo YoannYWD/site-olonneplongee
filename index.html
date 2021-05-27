@@ -29,12 +29,15 @@
 <body>
 
     <header>
+
+      <!-- NAVBAR
+      --------------------------------------------------------------------------------> 
+
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00263D;">
             <div class="container">
               <a class="navbar-brand" href="index.html">
                   <img src="resources/images/Logo 2.png" alt="Logo" width="181">
-                </a>
-              
+              </a>              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -71,44 +74,61 @@
               </div>
             </div>
           </nav>
-    </header>
-
-    <main>
 
       <!-- CAROUSEL
       -------------------------------------------------------------------------------->
 
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="resources/images/dauphins.jpg" class="d-block w-100" alt="dauphins">
+              </div>
+              <div class="carousel-item">
+                <img src="resources/images/seiche.jpg" class="d-block w-100" alt="seiche">
+              </div>
+              <div class="carousel-item">
+                <img src="resources/images/epave.jpg" class="d-block w-100" alt="épave">
+              </div>
+              <div class="carousel-item">
+                <img src="resources/images/tortue.jpg" class="d-block w-100" alt="tortue">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="container-fluid">
+            <div class="row home-title">
+              <div class="col">
+                <h1>olonne plongée</h1>
+                <h2>Votre meilleur centre en Vendée !</h2>
+                <a href="spots.html" class="btn">Je réserve une sortie</a>
+                <a href="cours.html" class="btn">Je réserve un cours</a>
+              </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+
+
+
       <section class="carouselsection">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="resources/images/dauphins.jpg" class="d-block w-100" alt="dauphins">
-            </div>
-            <div class="carousel-item">
-              <img src="resources/images/seiche.jpg" class="d-block w-100" alt="seiche">
-            </div>
-            <div class="carousel-item">
-              <img src="resources/images/epave.jpg" class="d-block w-100" alt="épave">
-            </div>
-            <div class="carousel-item">
-              <img src="resources/images/tortue.jpg" class="d-block w-100" alt="tortue">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+
+
+
       </section>
 
             <!-- INTRO + TOP RESA
@@ -117,29 +137,36 @@
       <section class="intro">
         <div class="container">
           <div class="row rowintro">
-            <div class="col-9 introtext">
+            <div class="col-12 col-lg-9 introtext">
               <h3>Préparez-vous à être fascinés !</h3>
 
               <p>Le monde qui vous attend sous la surface est empreint de beauté, de calme et de richesse. Venez le découvrir avec Olonne Plongée !</p> 
               <p>Que vous soyez expert, apprenti ou débutant, nous vous accompagnerons à votre rythme pour vous faire découvrir le grand bleu, sa faune et sa flore.</p> 
               <p>En Vendée ou ailleurs en France, nous avons sélectionné les meilleurs spots de plongée, ceux qui regroupent en un seul lieu la plus grande diversité d’espèces de notre environnement marin !</p>
               <p>En voici un bref aperçu :</p>
-              <p>Vivez ces expériences seul, à deux ou entre amis, nous saurons toujours trouver une place pour vous.</p> 
+              <div class="youtube-vid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U1Fysi7qXxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <p>Vivez ces expériences seul, à deux ou entre amis, nous saurons toujours trouver une place pour vous.</p>
               <p>Alors n’hésitez plus à réserver vos cours ou vos sorties !</p>
-
             </div>
-            <div class="col-3 top3">
+            <div class="col-12 col-lg-3 top3">
               <h3>Top 3 clients</h3>
-              <img src="resources/images/lieux/ile d'yeu.jpg" alt="Ile d'Yeu">
-              <h4>L'Ile d'Yeu</h4>
-              <p>Vivez une 1/2 journée magique </p>
-
-              <img src="resources/images/lieux/groix.jpg" alt="Ile de Groix">
-              <h4>L'Ile de Groix</h4>
-              <p>2 jours en terre bretonne </p>
-              <img src="resources/images/lieux/Corse.jpg" alt="Golf de Porto">
-              <h4>Le Golf de Porto</h4>
-              <p>4 jours sur et sous l'île de beauté </p>
+                <a href="spots.html">
+                  <img src="resources/images/lieux/ile d'yeu.jpg" alt="Ile d'Yeu">
+                </a>
+                <h4>L'Ile d'Yeu</h4>
+                <p>Vivez une 1/2 journée magique </p>
+                <a href="spots.html">
+                  <img src="resources/images/lieux/groix.jpg" alt="Ile de Groix">
+                </a>
+                  <h4>L'Ile de Groix</h4>
+                  <p>2 jours en terre bretonne </p>
+                <a href="spots.html">
+                  <img src="resources/images/lieux/Corse.jpg" alt="Golf de Porto">
+                </a>
+                  <h4>Le Golf de Porto</h4>
+                  <p>4 jours sur et sous l'île de beauté </p>
               </div>
           </div>
         </div>

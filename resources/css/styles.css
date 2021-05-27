@@ -22,9 +22,9 @@
 /* CSS DIRECTORY
     1. =GLOBAL
     2. =HEADER
-    3. =CARROUSEL
-    4. =
-    5. =
+    3. =CARROUSEL + HOME TITLE
+    4. =INTRO + TOP RESA
+    5. =EVENEMENT
     6. =
     7. =
     8. =
@@ -36,20 +36,28 @@
 
 /* GLOBAL
 ==================================================*/
+body {
+    padding-top: 113.05px;
+}
 
 h1 {
-    font-family: 'Comfortaa', 'arial', sans-serif;
+    font-family: 'impact', 'arial', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 5em!important;
 }
+
 
 h2 {
     font-family: 'Comfortaa', 'arial', sans-serif;
+    color: #FFFFFF;
 }
 
 h3 {
     font-family: 'Comfortaa', 'arial', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
     margin: 0!important;
 }
 h3:after {
@@ -73,12 +81,33 @@ p {
     color: #00263D;
 }
 
+.container {
+    padding: 30px 0;
+}
+
+.btn {
+    border: 1px solid #FFFFFF!important;
+    color: #00263D!important;
+    background-color: #FCFFAD!important;
+    transition: 1s!important;
+}
+.btn:hover {
+    color: #1A97C3!important;
+    background-color: #FFFFFF!important;
+    border: 1px solid #1A97C3!important;
+    transition: 1s!important;
+}
+
 
 /* HEADER
 ==================================================*/
 
 header {
-    height: 113.05px;
+    position: relative;
+}
+
+.navbar .container {
+    padding: 0;
 }
 
 nav a {
@@ -106,8 +135,25 @@ nav a:hover {
 
 
 
-/* CARROUSEL
+/* CARROUSEL + HOME TITLE
 ==================================================*/
+
+.home-title {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.home-title h2 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.home-title .btn {
+    margin-right: 20px;
+}
+
+
 
 
 
@@ -118,9 +164,6 @@ nav a:hover {
     background-color: #39A9DB;
 }
 
-.rowintro {
-    padding: 30px 0;
-}
 
 .introtext h3:after {
     background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
@@ -130,7 +173,9 @@ nav a:hover {
     background-color: #1A97C3;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 10px  #00263D;
     border-radius: 10px;
+
 }
 
 .top3 h3:after {
@@ -139,11 +184,17 @@ nav a:hover {
 
 .top3 img {
     display: block;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 10px auto;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 1px solid #FCFFAD;
 
+    transition: 1s;
+}
+.top3 img:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .top3 p {
@@ -151,6 +202,12 @@ nav a:hover {
     text-align: center;
     padding-bottom: 10px;
 }
+
+iframe {
+    display: block;
+    margin: 30px auto;
+}
+
 
 
 
@@ -163,6 +220,8 @@ nav a:hover {
         rgba(7, 117, 230, 0.4)
       ), url(/site-olonneplongee/resources/images/sables.jpg);
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .event .far {
@@ -266,8 +325,99 @@ footer h3:after {
     color: #FFFFFF;
     font-family: 'Montserrat', 'arial', sans-serif;
     font-size: 0.7em;
-    padding: 30px 0 20px 0;
+    padding-top: 30px;
 }
+
+
+
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 2em!important;
+    }
+    h2 {
+        font-size: 0.9em!important;
+        margin-bottom: 5px!important;
+    }
+    .home-title {
+        top: 30%;
+        left: 13%;
+    }
+    .home-title a {
+        font-size: 0.7em;
+    }
+    .home-title .btn {
+        margin-right: 8px;
+    }
+    .youtube-vid {
+        overflow:hidden; 
+        padding-bottom:56.25%; 
+        position:relative; 
+        height:0;
+        margin-bottom: 40px;
+    }      
+    .youtube-vid iframe {
+        left:0; 
+        top:0; 
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    h1 {
+        font-size: 2.8em!important;
+    }
+    h2 {
+        font-size: 1.2em!important;
+        margin-bottom: 10px!important;
+    }
+    .home-title {
+        top: 35%;
+        left: 15%;
+    }
+    .home-title a {
+        font-size: 0.9em;
+    }
+    .youtube-vid {
+        overflow:hidden; 
+        padding-bottom:56.25%; 
+        position:relative; 
+        height:0;
+        margin-bottom: 40px;
+    }      
+    .youtube-vid iframe {
+        left:0; 
+        top:0; 
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 3.5em!important;
+    }
+    h2 {
+        font-size: 1.5em!important;
+        margin-bottom: 15px!important;
+    }
+    .home-title {
+        top: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .home-title {
+        top: 50%;
+    }
+}
+
+
+
 
 
 
