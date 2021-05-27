@@ -165,15 +165,24 @@ nav a:hover {
     background-attachment: fixed;
 }
 
+.event .far {
+    padding-right: 20px;
+    font-size: 1.2em;
+}
+
 .event h3 {
     color: #FFFFFF;
     text-align: center;
+}
+.event h3:after {
+    background: linear-gradient(to right, #39a8db00, #FCFFAD, #39a8db00);
 }
 
 .event p {
     color: #FFFFFF;
     text-align: center;
 }
+
 
 
 
