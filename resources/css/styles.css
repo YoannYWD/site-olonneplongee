@@ -191,5 +191,13 @@ footer h3:after {
     transition: 1s;
 }
 
+.copyright {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat', 'arial', sans-serif;
+    font-size: 0.7em;
+    padding: 30px 0 20px 0;
+}
+
 
 
