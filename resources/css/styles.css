@@ -187,9 +187,7 @@ nav a:hover {
     background-color: #1A97C3;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
-    box-shadow: 1px 1px 10px  #00263D;
     border-radius: 10px;
-
 }
 
 .top3 h3:after {
@@ -203,6 +201,7 @@ nav a:hover {
     height: 150px;
     border-radius: 50%;
     border: 1px solid #FCFFAD;
+    box-shadow: 1px 1px 10px  #00263D;
     transition: 1s;
 }
 
