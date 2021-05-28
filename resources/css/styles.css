@@ -303,11 +303,16 @@ iframe {
     background-color: #FFFFFF;
 }
 
+.employees h3{
+    padding-bottom: 0;
+}
 .employees h3:after {
     background: linear-gradient(to right, #FFFFFF, #1A97C3, #FFFFFF);
 }
 
-
+.galery-emp h5 {
+    color: #00263D;
+}
 
 .galery-emp img {
     display: block;
@@ -335,6 +340,10 @@ iframe {
     background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
 }
 
+.outing-title h5 {
+    color: #00263D;
+}
+
 .outing-list {
     padding: 20px 0;
 }
@@ -352,8 +361,8 @@ iframe {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 .outing-card h4 {
@@ -399,6 +408,10 @@ iframe {
     background: linear-gradient(to right, #FFFFFF, #39A9DB, #FFFFFF);
 }
 
+.trip-title h5 {
+    color: #00263D;
+}
+
 .trip-list {
     padding: 20px 0;
 }
@@ -421,8 +434,8 @@ iframe {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 .trip-card h4 {
