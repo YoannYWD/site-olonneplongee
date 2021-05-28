@@ -31,10 +31,8 @@
     9. =TRIP
     10.=FIRSTDIVE
     11.=GRADE
-
-
-
-    .=FOOTER
+    12.=CONTACT
+    13.=FOOTER
 
 */
 
@@ -125,6 +123,7 @@ nav a {
     font-family: 'Comfortaa', 'arial', sans-serif;
     color: #FFFFFF!important;
     transition: 1s;
+    padding-left: 20px!important;
 }
 
 nav a:hover {
@@ -144,6 +143,10 @@ nav a:hover {
     background-color: #00263D!important;
 }
 
+.navbar-toggler{
+    margin-right: 20px;
+    border-color: #FFFFFF!important;
+}
 
 
 /* CARROUSEL + HOME TITLE
@@ -511,11 +514,22 @@ iframe {
 ==================================================*/
 
 #grade {
-    background-color: #FFFFFF;
+    background-image: linear-gradient(
+        rgba(7, 117, 230, 0.6),
+        rgba(7, 117, 230, 0.6)
+      ), url(/site-olonneplongee/resources/images/bulles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grade-title h3, h5 {
+    color: #FFFFFF;
 }
 
 .grade-title h3:after {
-    background: linear-gradient(to right, #FFFFFF, #39A9DB, #FFFFFF);
+    background: linear-gradient(to right, #FFFFFF00, #FCFFAD, #FFFFFF00);
 }
 
 .grade-details {
@@ -533,6 +547,7 @@ iframe {
 .grade-card {
     box-shadow: 1px 1px 10px #00263D;
     border-radius: 10px;
+    background-color: #FFFFFF;
 }
 
 .grade-details i {
@@ -541,6 +556,58 @@ iframe {
 
 
 
+/* CONTACT 
+==================================================*/
+
+.contact-us {
+    background-image: linear-gradient(
+        rgba(7, 117, 230, 0.4),
+        rgba(7, 117, 230, 0.4)
+      ), url(/site-olonneplongee/resources/images/lunettes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.contact-us p {
+    color: #FFFFFF;
+}
+
+.contact-us h3:after {
+    background: linear-gradient(to right, #ffffff00, #FCFFAD, #ffffff00);
+}
+
+.contact-us p {
+    text-align: center;
+}
+
+.contact-us i {
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+label {
+    font-family: 'Montserrat', 'arial', sans-serif;
+}
+
+.contact-form {
+}
+
+.map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
