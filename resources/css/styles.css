@@ -44,7 +44,7 @@ body {
 }
 
 h1 {
-    font-family: 'impact', 'arial', sans-serif;
+    font-family: 'oswald', 'arial', sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 5em!important;
@@ -97,8 +97,9 @@ p {
 .btn {
     border: 1px solid #00263D!important;
     color: #00263D!important;
-    background-color: #FCFFAD!important;
+    background-color: #faff64!important;
     transition: 1s!important;
+    font-family: 'Montserrat', 'arial', sans-serif;
 }
 .btn:hover {
     color: #1A97C3!important;
@@ -147,6 +148,7 @@ nav a:hover {
     margin-right: 20px;
     border-color: #FFFFFF!important;
 }
+
 
 
 /* CARROUSEL + HOME TITLE
@@ -574,6 +576,9 @@ iframe {
 .grade-card h5 {
     color: #1A97C3;
 }
+.grade-card h5 span {
+    color: #1A97C3;
+}
 
 .grade-card img {
     display: block;
@@ -597,7 +602,7 @@ iframe {
 }
 
 .btn-grade {
-    margin-top: 50px;
+    margin-top: 51px;
 }
 
 
@@ -624,9 +629,7 @@ iframe {
     background: linear-gradient(to right, #ffffff00, #FCFFAD, #ffffff00);
 }
 
-.contact-us p {
-    text-align: center;
-}
+
 
 .contact-us i {
     padding-right: 10px;
@@ -651,8 +654,6 @@ label {
     width: 100%;
     height: 100%;
 }
-
-
 
 
 
@@ -732,13 +733,16 @@ footer h3:after {
     }
     .home-title {
         top: 30%;
-        left: 13%;
+        left: 11%;
     }
     .home-title a {
         font-size: 0.7em;
     }
     .home-title .btn {
-        margin-right: 8px;
+        margin-right: 5px;
+    }
+    .btn {
+        padding: 5px!important;
     }
     .youtube-vid {
         overflow:hidden; 
@@ -759,6 +763,7 @@ footer h3:after {
     }
     .firstdive-details img {
         height: 150px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 767px) {
@@ -770,8 +775,8 @@ footer h3:after {
         margin-bottom: 10px!important;
     }
     .home-title {
-        top: 35%;
-        left: 15%;
+        top: 42%;
+        left: 13%;
     }
     .home-title a {
         font-size: 0.9em;
@@ -790,9 +795,7 @@ footer h3:after {
         width:100%;
         position:absolute;
     }
-    .w-50 {
-        width: auto;
-    }
+
 }
 
 
@@ -805,7 +808,7 @@ footer h3:after {
         margin-bottom: 15px!important;
     }
     .home-title {
-        top: 50%;
+        top: 55%;
     }
 }
 
