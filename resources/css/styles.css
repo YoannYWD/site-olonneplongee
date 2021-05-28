@@ -30,6 +30,7 @@
     8. =OUTING
     9. =TRIP
     10.=FIRSTDIVE
+    11.=GRADE
 
 
 
@@ -100,7 +101,6 @@ p {
     color: #00263D!important;
     background-color: #FCFFAD!important;
     transition: 1s!important;
-    grid-area: btn;
 }
 .btn:hover {
     color: #1A97C3!important;
@@ -332,9 +332,8 @@ iframe {
     background: linear-gradient(to right, #39A9DB, #FCFFAD, #39A9DB);
 }
 
-.outing-title p {
-    text-align: center;
-    padding-bottom: 15px;
+.outing-list {
+    padding: 20px 0;
 }
 
 .outing-card {
@@ -374,6 +373,7 @@ iframe {
 }
 
 .outing-card .btn {
+
     margin: 10px auto;
 }
 
@@ -396,9 +396,8 @@ iframe {
     background: linear-gradient(to right, #FFFFFF, #39A9DB, #FFFFFF);
 }
 
-.trip-title p {
-    text-align: center;
-    padding-bottom: 15px;
+.trip-list {
+    padding: 20px 0;
 }
 
 .trip-card {
@@ -407,6 +406,11 @@ iframe {
     border-radius: 10px;
     background-color: #FFFFFF;
     color: #1A97C3;
+    transition: 1s;
+}
+.trip-card:hover {
+    transform: scale(1.05);
+    transition: 1s;
 }
 
 .trip-img {
@@ -437,13 +441,20 @@ iframe {
     color: #1A97C3;
 }
 
-.trip-card .btn {
-    margin: 10px auto;
-}
-
 .trip-card span {
     font-size: 0.6em;
 }
+
+.trip-card .btn {
+    margin: 10px 0;
+}
+
+.trip-signup {
+    text-align: center;
+}
+
+
+
 
 
 
@@ -459,15 +470,44 @@ iframe {
     background: linear-gradient(to right, #FCFFAD, #39A9DB, #FCFFAD);
 }
 
+.firstdive-details p {
+    text-align: center;
+    margin: 20px 0!important;
+
+}
+
+.firstdive-details h5 {
+    color:#00263D;
+}
+
+.firstdive-details span {
+    font-size: 0.7em;
+}
+
+.firstdive-details i {
+    padding-left: 10px;
+}
+
 .firstdive-details img {
     display: block;
-    width: 400px;
-    margin: 0 auto;
+    height: 250px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #00263D;
+}
+
+.firstdive-details .btn-firstdive {
+    background-color: #39A9DB!important;
+}
+
+.firstdive-details .btn-firstdive:hover {
+    background-color: #FFFFFF!important;
 }
 
 
 
-/* FIRST DIVE
+
+/* GRADE
 ==================================================*/
 
 #grade {
@@ -478,9 +518,28 @@ iframe {
     background: linear-gradient(to right, #FFFFFF, #39A9DB, #FFFFFF);
 }
 
-.grade-details img {
-    width: 200px;
+.grade-details {
+    color: #00263D;
+    padding: 20px 0;
+
 }
+
+.grade-details img {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.grade-card {
+    box-shadow: 1px 1px 10px #00263D;
+    border-radius: 10px;
+}
+
+.grade-details i {
+    padding-right: 10px;
+}
+
+
 
 
 
@@ -588,6 +647,8 @@ footer h3:after {
     .galery-title {
         right: 15px;
     }
+    .firstdive-details img {
+        height: 150px;
 }
 
 @media screen and (min-width: 501px) and (max-width: 767px) {
