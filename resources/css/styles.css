@@ -96,10 +96,11 @@ p {
 }
 
 .btn {
-    border: 1px solid #FFFFFF!important;
+    border: 1px solid #00263D!important;
     color: #00263D!important;
     background-color: #FCFFAD!important;
     transition: 1s!important;
+    grid-area: btn;
 }
 .btn:hover {
     color: #1A97C3!important;
@@ -333,13 +334,53 @@ iframe {
 
 .outing-title p {
     text-align: center;
+    padding-bottom: 15px;
 }
 
-.outing-list img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
+.outing-card {
+    border: 2px solid #00263D;
+    padding: 0!important;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #00263D;
 }
+
+.outing-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.outing-card h4 {
+    margin: 10px 0!important;
+}
+
+.outing-card ul {
+    margin-left: 20px;
+    color: #1A97C3;
+}
+
+.outing-card li {
+    margin: 5px 0;
+}
+
+.outing-card i {
+    padding-right: 10px;
+    font-size: 1.2em;
+    color: #00263D;
+}
+
+.outing-card .btn {
+    margin: 10px auto;
+}
+
+.outing-card span {
+    font-size: 0.6em;
+}
+
 
 
 
@@ -357,12 +398,51 @@ iframe {
 
 .trip-title p {
     text-align: center;
+    padding-bottom: 15px;
 }
 
-.trip-list img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
+.trip-card {
+    border: 2px solid #00263D;
+    padding: 0!important;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #1A97C3;
+}
+
+.trip-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.trip-card h4 {
+    margin: 10px 0!important;
+}
+
+.trip-card ul {
+    margin-left: 20px;
+    color: #00263D;
+}
+
+.trip-card li {
+    margin: 5px 0;
+}
+
+.trip-card i {
+    padding-right: 10px;
+    font-size: 1.2em;
+    color: #1A97C3;
+}
+
+.trip-card .btn {
+    margin: 10px auto;
+}
+
+.trip-card span {
+    font-size: 0.6em;
 }
 
 
