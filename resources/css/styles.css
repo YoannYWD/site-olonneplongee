@@ -342,6 +342,7 @@ iframe {
 
 .outing-title h5 {
     color: #00263D;
+    margin: 0!important;
 }
 
 .outing-list {
@@ -354,6 +355,17 @@ iframe {
     border-radius: 10px;
     background-color: #FFFFFF;
     color: #00263D;
+    transition: 1s;
+    margin: 10px 0;
+}
+
+.outing-card h5{
+    color: #00263D;
+}
+
+.outing-card:hover {
+    transform: scale(1.05);
+    transition: 1s;
 }
 
 .outing-img {
@@ -370,6 +382,7 @@ iframe {
 }
 
 .outing-card ul {
+    text-align: left;
     margin-left: 20px;
     color: #1A97C3;
 }
@@ -384,16 +397,13 @@ iframe {
     color: #00263D;
 }
 
-.outing-card .btn {
-
-    margin: 10px auto;
-}
-
 .outing-card span {
     font-size: 0.6em;
 }
 
-
+.outing-card .btn{
+    margin: 10px 0;
+}
 
 
 
@@ -410,6 +420,7 @@ iframe {
 
 .trip-title h5 {
     color: #00263D;
+    margin: 0!important;
 }
 
 .trip-list {
@@ -423,10 +434,15 @@ iframe {
     background-color: #FFFFFF;
     color: #1A97C3;
     transition: 1s;
+    margin: 10px 0;
 }
 .trip-card:hover {
     transform: scale(1.05);
     transition: 1s;
+}
+
+.trip-card h5 {
+    color: #1A97C3;
 }
 
 .trip-img {
@@ -443,6 +459,7 @@ iframe {
 }
 
 .trip-card ul {
+    text-align: left;
     margin-left: 20px;
     color: #00263D;
 }
@@ -546,25 +563,41 @@ iframe {
 }
 
 .grade-details {
-    color: #00263D;
     padding: 20px 0;
 
 }
 
-.grade-details img {
+.grade-card {
+    color: #00263D;
+    margin: 10px 0;
+}
+.grade-card h5 {
+    color: #1A97C3;
+}
+
+.grade-card img {
     display: block;
     width: 200px;
-    margin: 20px auto;
+    margin: 0 auto 10px auto;
 }
 
 .grade-card {
     box-shadow: 1px 1px 10px #00263D;
     border-radius: 10px;
     background-color: #FFFFFF;
+    padding: 10px;
 }
 
-.grade-details i {
+.grade-card ul {
+    text-align: left;
+}
+
+.grade-card i {
     padding-right: 10px;
+}
+
+.btn-grade {
+    margin-top: 50px;
 }
 
 
@@ -602,9 +635,6 @@ iframe {
 
 label {
     font-family: 'Montserrat', 'arial', sans-serif;
-}
-
-.contact-form {
 }
 
 .map {
@@ -760,6 +790,9 @@ footer h3:after {
         width:100%;
         position:absolute;
     }
+    .w-50 {
+        width: auto;
+    }
 }
 
 
@@ -781,9 +814,3 @@ footer h3:after {
         top: 50%;
     }
 }
-
-
-
-
-
-
