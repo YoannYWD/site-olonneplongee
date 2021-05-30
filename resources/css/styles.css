@@ -27,12 +27,13 @@
     5. =EVENEMENT
     6. =CLUB
     7. =EMPLOYEES
-    8. =OUTING
-    9. =TRIP
-    10.=FIRSTDIVE
-    11.=GRADE
-    12.=CONTACT
-    13.=FOOTER
+    8. =STATS
+    9. =OUTING
+    10. =TRIP
+    11.=FIRSTDIVE
+    12.=GRADE
+    13.=CONTACT
+    14.=FOOTER
 
 */
 
@@ -329,6 +330,31 @@ iframe {
     text-align: center;
     margin: 0px;
 }
+
+
+/* STATS
+==================================================*/
+
+.stats p {
+    padding: 0 40px;
+    text-align: center;
+    padding-bottom: 20px!important;
+}
+
+.stats h4 {
+    font-family: 'oswald', 'arial', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 5em!important;
+    margin-bottom: 8px!important;
+}
+
+.stats-line2 {
+    margin-top: 30px!important;
+}
+
+
+
 
 
 /* OUTING
